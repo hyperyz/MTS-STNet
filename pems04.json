@@ -1,0 +1,13 @@
+{
+	"lr": 0.003,
+	"epochs": 500,
+	"batch_size": 64,
+	"data_split": [0.6, 0.2],
+	"adj_file": "data/pems04/pems04.csv",
+	"data_file": "data/pems04/pems04.npz",
+	"saved_dir": "saved/pems04",
+	"n_nodes": 307,
+	"out_timesteps": 12,
+	"points_per_hour": 12,
+	"device": "cuda:1"
+}
